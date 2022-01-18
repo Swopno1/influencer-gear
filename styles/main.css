@@ -4,6 +4,7 @@
 :root {
   --primary-color: #18191f;
   --secondery-color: #787885;
+  --secondary-bg-color: #0a0826;
   --btn-color: #e02c6d;
 }
 
@@ -21,6 +22,12 @@ ul li a {
   text-decoration: none;
   color: var(--primary-color);
 }
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  padding: 40px 0;
+}
 /* top nav bar */
 header {
   max-width: 1110px;
@@ -33,7 +40,6 @@ header {
   padding: 40px 0;
 }
 .main-logo h1 {
-  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: bold;
 }
@@ -43,4 +49,45 @@ nav {
 .fa-search,
 .fa-shopping-cart {
   font-size: 1.2em;
+}
+/* main-header area */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-content {
+  max-width: 582px;
+}
+.header-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 60px;
+  margin: 0;
+}
+.header-content p {
+  max-width: 450px;
+  padding-bottom: 15px;
+}
+.banner-image {
+  max-width: 400px;
+}
+.banner-image img {
+  width: 100%;
+}
+.btn {
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 700;
+  padding: 10px 25px;
+  background-color: var(--btn-color);
+  color: white;
+}
+.fa-long-arrow-alt-right {
+  font-size: 0.9em;
+  padding: 5px;
+}
+.btn:hover {
+  background-color: var(--secondary-bg-color);
+  transition: 0.2s ease-in-out;
 }
