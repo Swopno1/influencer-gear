@@ -1,0 +1,37 @@
+/* basic utility styles */
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: aliceblue;
+}
+ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+}
+ul li a {
+  text-decoration: none;
+}
+/* top nav bar */
+header {
+  max-width: 1110px;
+  margin: auto;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.main-logo {
+}
+.main-logo h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+nav {
+  font-size: 16px;
+}
