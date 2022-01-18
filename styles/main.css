@@ -1,20 +1,25 @@
 /* basic utility styles */
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
 
-/* font-family: 'Lato', sans-serif;
-font-family: 'Poppins', sans-serif; */
+:root {
+  --primary-color: #18191f;
+  --secondery-color: #787885;
+  --btn-color: #e02c6d;
+}
 
 body {
-  font-family: "Lato", sans-serif;
   background-color: aliceblue;
+  font-family: "Lato", sans-serif;
+  color: var(--primary-color);
 }
 ul li {
   list-style: none;
   display: inline;
-  padding-left: 10px;
+  padding-left: 25px;
 }
 ul li a {
   text-decoration: none;
+  color: var(--primary-color);
 }
 /* top nav bar */
 header {
@@ -24,8 +29,8 @@ header {
 .nav-bar {
   display: flex;
   justify-content: space-between;
-}
-.main-logo {
+  align-items: center;
+  padding: 40px 0;
 }
 .main-logo h1 {
   font-family: "Poppins", sans-serif;
@@ -34,4 +39,8 @@ header {
 }
 nav {
   font-size: 16px;
+}
+.fa-search,
+.fa-shopping-cart {
+  font-size: 1.2em;
 }
