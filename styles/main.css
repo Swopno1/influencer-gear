@@ -78,15 +78,18 @@ nav {
 }
 .btn {
   text-decoration: none;
-  border-radius: 20px;
+
   font-weight: 700;
-  padding: 10px 25px;
+  padding: 5px 15px;
   background-color: var(--btn-color);
   color: white;
 }
+.btn-round {
+  border-radius: 20px;
+}
 .fa-long-arrow-alt-right {
   font-size: 0.9em;
-  padding: 5px;
+  padding-left: 5px;
 }
 .btn:hover {
   background-color: var(--secondary-bg-color);
@@ -154,4 +157,27 @@ main {
 }
 .fa-star.unfilled {
   color: var(--secondery-color);
+}
+.see-more a {
+  text-decoration: none;
+  color: var(--btn-color);
+  padding: 15px 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  float: right;
+}
+/* Featured Product */
+.featured-post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feature-image {
+  max-width: 400px;
+}
+.feature-content {
+  max-width: 610px;
+}
+.feature-content p {
+  padding: 0 0 5px 0px;
 }
