@@ -5,7 +5,7 @@
   --primary-color: #18191f;
   --secondery-color: #787885;
   --secondary-bg-color: #0a0826;
-  --btn-color: #e02c6d;
+  --btn-color: indianred;
 }
 
 body {
@@ -82,6 +82,10 @@ nav {
 }
 .banner-image img {
   width: 100%;
+}
+.banner-image:hover {
+  transform: scale(110%, 110%);
+  transition: 0.35s ease-in-out;
 }
 .btn {
   text-decoration: none;
@@ -168,6 +172,7 @@ main {
 }
 .feature-image {
   max-width: 400px;
+  border-radius: 10px;
 }
 .feature-content {
   max-width: 610px;
